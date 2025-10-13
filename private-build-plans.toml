@@ -12,42 +12,44 @@ seven = "bend-serifless-crossbar"
 nine = "open-contour"
 zero = "broken-slash"
 capital-c = "unilateral-inward-serifed"
-capital-f = "serifed"
-capital-h = "top-left-serifed"
-capital-k = "curly-top-left-and-bottom-right-serifed"
-capital-m = "flat-bottom-motion-serifed"
-capital-n = "standard-motion-serifed"
-capital-p = "closed-serifed"
-capital-q = "crossing-baseline"
+capital-f = "serifless"
+capital-h = "serifless"
+capital-j = "serifed"
+capital-k = "curly-serifless"
+capital-m = "hanging-serifless"
+capital-n = "asymmetric-serifless"
+capital-p = "closed-motion-serifed"
+capital-q = "crossing"
 capital-s = "bilateral-inward-serifed"
 capital-t = "serifless"
-capital-u = "toothless-corner-serifless"
-capital-v = "straight-motion-serifed"
-capital-w = "straight-motion-serifed"
-capital-x = "straight-unilateral-motion-serifed"
-capital-y = "straight-motion-serifed"
+capital-u = "toothless-rounded-serifless"
+capital-v = "curly-serifless"
+capital-w = "straight-serifless"
+capital-x = "curly-serifless"
+capital-y = "curly-serifless"
 capital-z = "straight-serifless"
-a = "double-storey-toothless-corner"
-b = "toothless-corner-serifless"
-d = "toothless-corner-serifless"
-e = "rounded"
-f = "diagonal-tailed"
-g = "single-storey-earless-corner"
-i = "tailed-serifed"
-j = "diagonal-tailed-serifless"
-k = "straight-top-left-serifed"
-l = "diagonal-tailed"
-m = "top-left-serifed"
-n = "straight-top-left-serifed"
-p = "eared-motion-serifed"
-q = "top-cut-diagonal-tailed-serifless"
-r = "corner-hooked-top-serifed"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-extended"
+g = "double-storey-open"
+i = "zshaped"
+j = "flat-hook-serifed"
+k = "straight-serifless"
+l = "zshaped"
+m = "serifless"
+n = "straight-serifless"
+p = "eared-serifless"
+q = "straight-serifless"
+r = "hookless-serifless"
 s = "unilateral-inward-serifed"
-t = "diagonal-tailed"
-u = "tailed-serifless"
-v = "straight-motion-serifed"
-w = "straight-motion-serifed"
-y = "cursive-serifless"
+t = "flat-hook-short-neck2"
+u = "toothed-serifless"
+v = "straight-serifless"
+w = "straight-serifless"
+x = "straight-serifless"
+y = "curly-serifless"
 z = "straight-serifless"
 punctuation-dot = "round"
 braille-dot = "round"
@@ -75,27 +77,37 @@ lig-double-arrow-bar = "with-notch"
 lig-single-arrow-bar = "with-notch"
 
   [buildPlans.NekoMono.ligations]
-  inherits = "haskell"
+  inherits = "dlig"
 
 [buildPlans.NekoMono.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
-[buildPlans.NekoMono.weights.ExtraLight]
-shape = 200
-menu = 200
-css = 200
+[buildPlans.NekoMono.weights.Bold]
+shape = 700
+menu = 700
+css = 700
 
-[buildPlans.NekoMono.weights.SemiBold]
-shape = 600
-menu = 600
-css = 600
+[buildPlans.NekoMono.weights.Light]
+shape = 300
+menu = 300
+css = 300
 
-[buildPlans.NekoMono.weights.ExtraBold]
-shape = 800
-menu = 800
-css = 800
+[buildPlans.NekoMono.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.NekoMono.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.NekoMono.widths.SemiExtended]
+shape = 548
+menu = 6
+css = "semi-expanded"
 
 [buildPlans.NekoMono.slopes.Upright]
 angle = 0
